@@ -9,7 +9,8 @@ profile:
   image: shiyu_photo2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-   
+    <p>Email:shiyu.yang@aliyun.com</p>
+    <p>Address: Guangzhou University, China </p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
