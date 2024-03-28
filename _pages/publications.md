@@ -12,4 +12,137 @@ nav_order: 2
 
 {% bibliography %}
 
+@inproceedings{yang2014slice,
+  title={SLICE: reviving regions-based pruning for reverse k nearest neighbors queries},
+  author={Yang, Shiyu and Cheema, Muhammad Aamir and Lin, Xuemin and Zhang, Ying},
+  booktitle={2014 IEEE 30th International Conference on Data Engineering},
+  pages={760--771},
+  year={2014},
+  organization={IEEE}
+}
+
+@article{yang2015reverse,
+  title={Reverse k nearest neighbors query processing: experiments and analysis},
+  author={Yang, Shiyu and Cheema, Muhammad Aamir and Lin, Xuemin and Wang, Wei},
+  journal={Proceedings of the VLDB Endowment},
+  volume={8},
+  number={5},
+  pages={605--616},
+  year={2015},
+  publisher={VLDB Endowment}
+}
+
+
+
+@article{yang2017reverse,
+  title={Reverse k nearest neighbors queries and spatial reverse top-k queries},
+  author={Yang, Shiyu and Cheema, Muhammad Aamir and Lin, Xuemin and Zhang, Ying and Zhang, Wenjie},
+  journal={The VLDB Journal},
+  volume={26},
+  pages={151--176},
+  year={2017},
+  publisher={Springer Berlin Heidelberg}
+}
+
+
+
+@inproceedings{yang2017tt,
+  title={Tt-join: Efficient set containment join},
+  author={Yang, Jianye and Zhang, Wenjie and Yang, Shiyu and Zhang, Ying and Lin, Xuemin},
+  booktitle={2017 IEEE 33rd International Conference on Data Engineering (ICDE)},
+  pages={509--520},
+  year={2017},
+  organization={IEEE}
+}
+
+@article{hidayat2017reverse,
+  title={Reverse approximate nearest neighbor queries},
+  author={Hidayat, Arif and Yang, Shiyu and Cheema, Muhammad Aamir and Taniar, David},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  volume={30},
+  number={2},
+  pages={339--352},
+  year={2017},
+  publisher={IEEE}
+}
+
+@article{yang2018efficient,
+  title={Efficient set containment join},
+  author={Yang, Jianye and Zhang, Wenjie and Yang, Shiyu and Zhang, Ying and Lin, Xuemin and Yuan, Long},
+  journal={The VLDB Journal},
+  volume={27},
+  number={4},
+  pages={471--495},
+  year={2018},
+  publisher={Springer Berlin Heidelberg}
+}
+
+
+
+
+@inproceedings{lai2021pefp,
+  title={Pefp: Efficient k-hop constrained st simple path enumeration on fpga},
+  author={Lai, Zhengmin and Peng, You and Yang, Shiyu and Lin, Xuemin and Zhang, Wenjie},
+  booktitle={2021 IEEE 37th International Conference on Data Engineering (ICDE)},
+  pages={1320--1331},
+  year={2021},
+  organization={IEEE}
+}
+
+@inproceedings{jin2021fast,
+  title={Fast: Fpga-based subgraph matching on massive graphs},
+  author={Jin, Xin and Yang, Zhengyi and Lin, Xuemin and Yang, Shiyu and Qin, Lu and Peng, You},
+  booktitle={2021 IEEE 37th international conference on data engineering (ICDE)},
+  pages={1452--1463},
+  year={2021},
+  organization={IEEE}
+}
+
+@inproceedings{li2021indoorviz,
+  title={Indoorviz: A demonstration system for indoor spatial data management},
+  author={Li, Yue and Yang, Shiyu and Cheema, Muhammad Aamir and Shao, Zhou and Lin, Xuemin},
+  booktitle={Proceedings of the 2021 International Conference on Management of Data},
+  pages={2755--2759},
+  year={2021}
+}
+
+
+
+
+@article{xu2023learning,
+  title={Learning Accurate Label-Specific Features From Partially Multilabeled Data},
+  author={Xu, Tiantian and Xu, Yuanyuan and Yang, Shiyu and Li, Binghao and Zhang, Wenjie},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2023},
+  publisher={IEEE}
+}
+
+@article{zhang2023size,
+  title={Size-constrained community search on large networks: An effective and efficient solution},
+  author={Zhang, Fan and Guo, Haicheng and Ouyang, Dian and Yang, Shiyu and Lin, Xuemin and Tian, Zhihong},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2023},
+  publisher={IEEE}
+}
+
+@inproceedings{zhang2023hop,
+  title={Hop-constrained ST simple path enumeration on large dynamic graphs},
+  author={Zhang, Jiujing and Yang, Shiyu and Ouyang, Dian and Zhang, Fan and Lin, Xuemin and Yuan, Long},
+  booktitle={2023 IEEE 39th International Conference on Data Engineering (ICDE)},
+  pages={762--775},
+  year={2023},
+  organization={IEEE}
+}
+
+@article{zhang2023high,
+  title={High-Ratio Compression for Machine-Generated Data},
+  author={Zhang, Jiujing and Shen, Zhitao and Yang, Shiyu and Meng, Lingkai and Xiao, Chuan and Jia, Wei and Li, Yue and Sun, Qinhui and Zhang, Wenjie and Lin, Xuemin},
+  journal={Proceedings of the ACM on Management of Data},
+  volume={1},
+  number={4},
+  pages={1--27},
+  year={2023},
+  publisher={ACM New York, NY, USA}
+}
+
 </div>
