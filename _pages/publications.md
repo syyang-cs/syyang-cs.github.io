@@ -10,7 +10,7 @@ nav_order: 2
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography %
+{% bibliography %}
 
 @inproceedings{yang2014slice,
   title={SLICE: reviving regions-based pruning for reverse k nearest neighbors queries},
@@ -144,5 +144,5 @@ nav_order: 2
   year={2023},
   publisher={ACM New York, NY, USA}
 }
-}
+
 </div>
