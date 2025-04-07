@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "Efficient Learning-based Top-k Representative Similar Subtrajectory Query" is accepted by ICDE 2024. 
+Our paper "TierBase: A Workload-Driven Cost-Optimized Key-Value Store" is accepted by ICDE 2025. 
