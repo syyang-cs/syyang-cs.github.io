@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="data systems">
+  <rect width="96" height="96" rx="18" fill="#effcf6"/>
+  <ellipse cx="48" cy="26" rx="27" ry="10" fill="#10b981"/>
+  <path d="M21 26v36c0 6 12 11 27 11s27-5 27-11V26" fill="none" stroke="#059669" stroke-width="5"/>
+  <path d="M21 44c0 6 12 11 27 11s27-5 27-11" fill="none" stroke="#059669" stroke-width="5"/>
+  <path d="M58 35l-16 23h14l-10 19 24-28H56z" fill="#f59e0b"/>
+</svg>
