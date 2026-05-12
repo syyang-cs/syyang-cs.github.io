@@ -22,125 +22,170 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-// Academic professor homepage refinements
-.homepage-controls {
-  display: flex;
-  justify-content: flex-end;
-  gap: 0.5rem;
-  margin: -0.5rem 0 1.25rem;
+// Jure Leskovec-inspired academic homepage
+.jure-home {
+  display: grid;
+  grid-template-columns: 185px minmax(0, 1fr);
+  gap: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.45;
+  margin-top: 0.5rem;
 }
 
-.lang-toggle {
+.jure-sidebar {
+  border-right: 1px solid var(--global-divider-color);
+  padding-right: 1.25rem;
+}
+
+.jure-photo {
   border: 1px solid var(--global-divider-color);
-  border-radius: 999px;
-  background: var(--global-bg-color);
-  color: var(--global-text-color);
-  font-size: 0.85rem;
-  padding: 0.25rem 0.8rem;
-  transition: all 0.15s ease-in-out;
+  display: block;
+  margin-bottom: 1rem;
+  max-width: 155px;
+  width: 100%;
 }
 
-.lang-toggle.active,
-.lang-toggle:hover {
+.jure-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.28rem;
+}
+
+.jure-nav a {
+  color: var(--global-theme-color);
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.jure-nav a:hover,
+.jure-main a:hover {
+  text-decoration: underline;
+}
+
+.jure-header {
+  align-items: flex-start;
+  border-bottom: 1px solid var(--global-divider-color);
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 1.1rem;
+  padding-bottom: 0.75rem;
+}
+
+.jure-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.jure-header h1 span {
+  color: var(--global-text-color-light);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.jure-title {
+  color: var(--global-text-color-light);
+  margin: 0.35rem 0 0;
+}
+
+.jure-language {
+  display: flex;
+  gap: 0.35rem;
+  white-space: nowrap;
+}
+
+.jure-lang-toggle {
+  background: transparent;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 3px;
+  color: var(--global-text-color);
+  font-size: 0.78rem;
+  padding: 0.15rem 0.5rem;
+}
+
+.jure-lang-toggle.active,
+.jure-lang-toggle:hover {
   background: var(--global-theme-color);
   border-color: var(--global-theme-color);
   color: var(--global-bg-color);
 }
 
-.lang-block {
+.jure-lang-block {
   display: none;
 }
 
-.lang-block.active {
+.jure-lang-block.active {
   display: block;
 }
 
-.home-section {
-  border-top: 1px solid var(--global-divider-color);
-  margin-top: 1.5rem;
-  padding-top: 1.25rem;
+.jure-section {
+  margin-bottom: 1.25rem;
 }
 
-.home-section h2 {
-  font-size: 1.45rem;
-  margin-bottom: 0.75rem;
-}
-
-.section-intro {
-  color: var(--global-text-color-light);
-  margin-bottom: 1rem;
-}
-
-.research-grid {
-  display: grid;
-  gap: 0.9rem;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.research-card {
-  border: 1px solid var(--global-divider-color);
-  border-radius: 0.4rem;
-  display: grid;
-  grid-template-columns: 72px 1fr;
-  gap: 0.85rem;
-  padding: 0.9rem;
-  background: var(--global-card-bg-color);
-}
-
-.research-card img {
-  width: 72px;
-  height: 72px;
-}
-
-.research-card h3 {
-  font-size: 1rem;
-  margin: 0 0 0.35rem;
-}
-
-.research-card p {
-  font-size: 0.9rem;
-  margin: 0;
-}
-
-.publication-list {
-  margin-left: 1.25rem;
-  padding-left: 0.5rem;
-}
-
-.publication-list li {
-  margin-bottom: 0.8rem;
-}
-
-.publication-list .venue {
-  border: 1px solid var(--global-theme-color);
-  border-radius: 0.25rem;
-  color: var(--global-theme-color);
-  display: inline-block;
-  font-size: 0.72rem;
+.jure-section h2 {
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 1.35rem;
   font-weight: 700;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
-  margin-right: 0.35rem;
-  padding: 0.1rem 0.35rem;
-  vertical-align: 0.08rem;
+  margin: 0 0 0.55rem;
+  padding-bottom: 0.2rem;
 }
 
-.publication-list a {
-  font-weight: 600;
-  white-space: nowrap;
+.jure-section p {
+  margin-bottom: 0.65rem;
 }
 
-.links-section p {
-  font-size: 1rem;
+.jure-section ul,
+.jure-section ol {
+  margin-bottom: 0;
+  padding-left: 1.25rem;
+}
+
+.jure-section li {
+  margin-bottom: 0.45rem;
+}
+
+.jure-publications ol {
+  padding-left: 1.35rem;
+}
+
+.jure-publications li {
+  margin-bottom: 0.55rem;
+}
+
+.jure-more {
+  margin-top: 0.7rem;
 }
 
 @media (max-width: 768px) {
-  .homepage-controls {
-    justify-content: flex-start;
-    margin-top: 0.5rem;
+  .jure-home {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 
-  .research-grid {
-    grid-template-columns: 1fr;
+  .jure-sidebar {
+    border-right: 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 110px 1fr;
+    padding: 0 0 1rem;
+  }
+
+  .jure-photo {
+    margin-bottom: 0;
+    max-width: 110px;
+  }
+
+  .jure-nav {
+    align-content: start;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .jure-header {
+    flex-direction: column;
   }
 }
