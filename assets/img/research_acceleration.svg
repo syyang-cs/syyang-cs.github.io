@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="hardware acceleration">
+  <rect width="96" height="96" rx="18" fill="#fff7ed"/>
+  <rect x="25" y="25" width="46" height="46" rx="8" fill="#fb923c" stroke="#ea580c" stroke-width="5"/>
+  <rect x="37" y="37" width="22" height="22" rx="4" fill="#fff7ed"/>
+  <g stroke="#ea580c" stroke-width="4" stroke-linecap="round">
+    <path d="M16 34h9M16 48h9M16 62h9M71 34h9M71 48h9M71 62h9M34 16v9M48 16v9M62 16v9M34 71v9M48 71v9M62 71v9"/>
+  </g>
+</svg>
