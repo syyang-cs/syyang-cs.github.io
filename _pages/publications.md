@@ -1,17 +1,16 @@
 ---
-layout: page
+layout: jure_page
 permalink: /publications/
-title: publications
-description: 
-nav: true
-nav_order: 2
+title: Publications
+heading: Publications
+nav: false
 ---
 
-<!-- _pages/publications.md -->
-<div class="publications">
+<section class="jure-section">
+  {% capture publications_intro %}{% include content/publications_intro.md %}{% endcapture %}
+  {{ publications_intro | markdownify }}
+</section>
 
-{% bibliography %}
-
-
-
-</div>
+<section class="jure-section publications">
+  {% bibliography %}
+</section>

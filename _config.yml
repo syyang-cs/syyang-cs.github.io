@@ -45,7 +45,8 @@ rss_icon: false
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
+navbar_fixed: false
+hide_top_nav: true
 footer_fixed: true
 
 # Dimensions

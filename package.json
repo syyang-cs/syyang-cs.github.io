@@ -2,5 +2,9 @@
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "1.4.0",
     "prettier": "3.1.1"
+  },
+  "scripts": {
+    "preview": "docker compose up",
+    "package:local": "bash scripts/package_local.sh"
   }
 }

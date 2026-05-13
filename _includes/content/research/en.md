@@ -1,0 +1,4 @@
+- **Spatio-temporal data management:** indexing and query processing for trajectories, indoor spaces, road networks, and mobility applications.
+- **Graph data management:** community search, path enumeration, structural clustering, subgraph matching, and graph query processing.
+- **Data systems:** cost-efficient storage engines, key-value stores, and compression for machine-generated data.
+- **Hardware acceleration:** FPGA/GPU-aware methods for accelerating graph, path, and query workloads.
