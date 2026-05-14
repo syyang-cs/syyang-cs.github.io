@@ -1,0 +1,3 @@
+I am a Professor at the School of Cyberspace Security, Guangzhou University, and Director of the Big Data Computing and Intelligence Lab. My research focuses on data management for emerging applications, including spatio-temporal data, graph data, large-scale query processing, and hardware-accelerated big data computing.
+
+I am a Senior Member of CCF, a standing committee member of the CCF Information Systems Committee and the Intelligent Transportation Committee, and an executive committee member of the CCF Database Committee. I also serve as a guest editor for *Data Science and Engineering*, a special issue editor for *Journal of Computer Research and Development*, and a program committee member or reviewer for top venues such as PVLDB, ICDE, and IEEE TKDE.

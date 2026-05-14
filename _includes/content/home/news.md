@@ -1,0 +1,3 @@
+- **Apr. 2025:** Several master positions are available. Please drop me an email for further information.
+- **Nov. 2024:** Our paper *TierBase: A Workload-Driven Cost-Optimized Key-Value Store* was accepted by ICDE 2025.
+- **2024:** Recent work includes papers in TKDE, ICDE, and SIGMOD/PACMMOD on data systems, graph queries, trajectory search, and compression.

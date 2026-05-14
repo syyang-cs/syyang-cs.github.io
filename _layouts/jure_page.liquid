@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="jure-home">
+  {% include jure_sidebar.liquid %}
+
+  <main class="jure-main">
+    {% unless page.hide_jure_header %}
+      <header class="jure-header">
+        <div>
+          <h1>{{ page.heading | default: page.title }}</h1>
+          {% if page.description %}
+            <p class="jure-title">{{ page.description }}</p>
+          {% endif %}
+        </div>
+      </header>
+    {% endunless %}
+
+    {{ content }}
+  </main>
+</div>
+
+{% include jure_language_script.liquid %}
