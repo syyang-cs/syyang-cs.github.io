@@ -10,3 +10,8 @@ Gemfile.lock
 node_modules/
 vendor
 dist/
+
+# stray files from old homepage
+/index.html
+/prof_pic.jpg
+/syyang-homepage.md
